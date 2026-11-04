@@ -1,4 +1,4 @@
-// MENUS BEGINNING //
+// CONTAINERS BEGINNING //
 const menuConfigs = [
     { container: '#menu', trigger: '.collapsible', content: '.collapsible-content', closeBtn: '#close-menu', targetClass: 'expanded-panel' },
     { container: '#social', trigger: '.collapsible-social', content: '.collapsible-social-content', closeBtn: '#close-social-menu', targetClass: 'expanded-panel' },
@@ -48,25 +48,4 @@ window.addEventListener('click', function(e) {
         }
     });
 });
-// MENUS ENDING //
-
-// LOADERS BEGINNING //
-$(document).ready(function() {
-    $('#fouc-shield').remove();
-    if ($('.fade-in-overlay').length === 0) {
-        $('body').prepend('<div class="fade-in-overlay"></div>');
-    }
-    const $curtain = $('.fade-in-overlay');
-    setTimeout(() => {
-        $curtain.addClass('hidden').removeClass('visible');
-    }, 100);
-    $('#menu .collapsible-content a.menu').click(function(e) {
-        e.preventDefault(); // Halt standard instant browser execution
-        const destination = this.getAttribute("href");
-        $curtain.removeClass('hidden').addClass('visible');
-        setTimeout(() => {
-            window.location.href = destination;
-        }, 1000);
-    });
-});
-// LOADERS ENDING //
+// CONTAINERS ENDING //
