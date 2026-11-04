@@ -28,20 +28,6 @@
 <meta property="business:contact_data:phone_number" content="+436505154548" />
 <meta property="business:contact_data:website" content="https://www.manuelcalvokamper.com/es/inicio" />
 
-<script>
-  (function() {
-    const referrer = document.referrer.toLowerCase();
-    const searchEngines = ['google.', 'bing.', 'yahoo.', 'duckduckgo.', 'baidu.', 'yandex.', 'ecosia.'];
-    if (searchEngines.some(engine => referrer.includes(engine)) || true) {
-      document.documentElement.classList.add('from-search');
-    }
-  })();
-</script>
-
-<style id="fouc-shield">
-    html { opacity: 0 !important; background: #000000 !important; }
-</style>
-
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
 

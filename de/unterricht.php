@@ -65,9 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="../pics/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<style id="fouc-shield">
-    html { opacity: 0 !important; background: #000000 !important; }
-  </style>
+
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 </head>

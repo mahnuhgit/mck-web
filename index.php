@@ -28,35 +28,19 @@
 <meta property="business:contact_data:phone_number" content="+436505154548" />
 <meta property="business:contact_data:website" content="https://www.manuelcalvokamper.com" />
 
-// HEAD SCRIPTS 1 BEGINNING //
-<script>
-  (function() {
-    const referrer = document.referrer.toLowerCase();
-    const searchEngines = ['google.', 'bing.', 'yahoo.', 'duckduckgo.', 'baidu.', 'yandex.', 'ecosia.'];
-    if (searchEngines.some(engine => referrer.includes(engine)) || true) {
-      document.documentElement.classList.add('from-search');
-    }
-  })();
-</script>
-
-<style id="fouc-shield">
-    html { opacity: 0 !important; background: #000000 !important; }
-</style>
-// HEAD SCRIPTS 1 ENDING //
-
 // CSS BEGINNING //
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
 // CSS ENDING //
 
-// HEAD SCRIPTS 2 BEGINNING //
+// HEAD SCRIPTS 1 BEGINNING //
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TLLN2S3');
 </script>
-// HEAD SCRIPTS 2 ENDING //
+// HEAD SCRIPTS 1 ENDING //
 
 <link rel="alternate" hreflang="x-default" href="https://www.manuelcalvokamper.com" />
 <link rel="alternate" hreflang="en" href="https://www.manuelcalvokamper.com" />
