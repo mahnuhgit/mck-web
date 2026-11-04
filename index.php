@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+// META TAGS BEGINNING //
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,6 +28,7 @@
 <meta property="business:contact_data:phone_number" content="+436505154548" />
 <meta property="business:contact_data:website" content="https://www.manuelcalvokamper.com" />
 
+// HEAD SCRIPTS 1 BEGINNING //
 <script>
   (function() {
     const referrer = document.referrer.toLowerCase();
@@ -41,16 +42,21 @@
 <style id="fouc-shield">
     html { opacity: 0 !important; background: #000000 !important; }
 </style>
+// HEAD SCRIPTS 1 ENDING //
 
+// CSS BEGINNING //
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
+// CSS ENDING //
 
+// HEAD SCRIPTS 2 BEGINNING //
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TLLN2S3');
 </script>
+// HEAD SCRIPTS 2 ENDING //
 
 <link rel="alternate" hreflang="x-default" href="https://www.manuelcalvokamper.com" />
 <link rel="alternate" hreflang="en" href="https://www.manuelcalvokamper.com" />
@@ -125,7 +131,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="apple-touch-icon" sizes="114x114" href="pics/favicon/apple-icon-114x114.png" />
 <link rel="apple-touch-icon" sizes="144x144" href="pics/favicon/apple-icon-144x144.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="pics/favicon/apple-icon-180x180.png" />
+// META TAGS ENDING //
 
+// JSON BEGINNING //
 <script type="application/ld+json">
  {
  	"@context": "https://schema.org",
@@ -311,17 +319,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+// JSON ENDING //
 
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
+
+// GTM BODY BEGINNING //
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLLN2S3"
 height="0" width="0" style="display:none;visibility:hidden">
   </iframe>
 </noscript>
-<!-- End Google Tag Manager (noscript) -->
+// GTM BODY ENDING //
+
+// MENU BEGINNING //
 <div id="menu">
   <div class="collapsible">
     <img class="menu-icons" src="pics/hamburguer.png" alt="Menu">
@@ -355,7 +367,9 @@ height="0" width="0" style="display:none;visibility:hidden">
       </div>  
   </div>
 </div>
+// MENU ENDING //
 
+// SOCIAL BEGINNING //
 <div id="social">
   <div class="collapsible-social">
     <img class="menu-icons" src="pics/connect.png" alt="Connect">
@@ -393,9 +407,11 @@ height="0" width="0" style="display:none;visibility:hidden">
       <div id="close-social-menu">
         <img class="menu-icons" src="pics/close.png" alt="Close">
       </div> 
+  </div>
 </div>
-</div>
+// SOCIAL ENDING //
 
+// TRANSLATE BEGINNING //
 <div id="translate">
   <div class="collapsible-translate">
     <img class="menu-icons" src="pics/languages.png" alt="Languages">
@@ -417,13 +433,17 @@ height="0" width="0" style="display:none;visibility:hidden">
       </div> 
     </div>
   </div>
+// TRANSLATE ENDING //
 
+// PAGE LOADER BEGINNING //
 <div class="page-loader">
     <img class="loader-gif" src="animations/loader.gif" alt="loader">
     <br /><br />
     <h4 class="h4-loader"></h4>
 </div>
+// PAGE LOADER ENDING //
 
+// IMPRESSUM BEGINNING //
 <div id="impressum">
   <div class="collapsible-impressum">
     <img class="menu-icons" src="pics/impressum.png" alt="Impressum">
@@ -461,7 +481,7 @@ height="0" width="0" style="display:none;visibility:hidden">
     </div> 
   </div>
 </div>
-
+// IMPRESSUM ENDING //
 
 <div id="header">
 
@@ -547,11 +567,10 @@ To be continued...
 
 </div>
 
+// JS SCRIPTS BEGINNING //
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
-<script src="js/menus.js"></script>
-<script src="js/loader.js"></script>
-
-
+<script src="js/mian.js"></script>
+// JS SCRIPTS ENDING //
 </body>
 
 </html>

@@ -324,8 +324,7 @@ Continuará...
 
 </div>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
-<script src="../js/menus.js"></script>
-<script src="../js/loader.js"></script>
-<script src="../js/referrer.js"></script>
+<script src="../js/main.js"></script>
+
 </body>
 </html>
