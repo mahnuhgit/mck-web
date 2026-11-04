@@ -52,64 +52,21 @@ window.addEventListener('click', function(e) {
 
 // LOADERS BEGINNING //
 $(document).ready(function() {
-    const isLang = sessionStorage.getItem('langTransition') === 'true';
-    const isNormal = sessionStorage.getItem('normalTransition') === 'true';
-    sessionStorage.removeItem('langTransition');
-    sessionStorage.removeItem('normalTransition');
-    if (isNormal) {
-        const $loader = $('.page-loader');
-        $loader.css('transition', 'none').addClass('visible');
-        $('#fouc-shield').remove();
-        $loader.css('transition', 'opacity 1s ease-out, visibility 1s ease-out');
-        setTimeout(() => {
-            $loader.removeClass('visible');
-        }, 500);
-    } 
-    else if (isLang) {
-        const $loader = $('.page-loader');
-        $loader.css('transition', 'none').addClass('visible active');
-        $('#fouc-shield').remove();
-        setTimeout(() => {
-            $loader.css('transition', 'opacity 1s ease-out, visibility 1s ease-out').removeClass('active');
-        }, 50);
-        setTimeout(() => {
-            $loader.removeClass('visible');
-        }, 1050);
-    } 
-    else {
-        // Direct Visit / Refresh
-        $('#fouc-shield').remove();
+    $('#fouc-shield').remove();
+    if ($('.fade-in-overlay').length === 0) {
+        $('body').prepend('<div class="fade-in-overlay"></div>');
     }
-    $('a').not('.languages, [href^="#"], [href=""], [target="_blank"]').click(function(e) {
-        e.preventDefault();
+    const $curtain = $('.fade-in-overlay');
+    setTimeout(() => {
+        $curtain.addClass('hidden').removeClass('visible');
+    }, 100);
+    $('#menu .collapsible-content a.menu').click(function(e) {
+        e.preventDefault(); // Halt standard instant browser execution
         const destination = this.getAttribute("href");
-        $('.page-loader').removeClass('active fade-out').addClass('visible');
+        $curtain.removeClass('hidden').addClass('visible');
         setTimeout(() => {
-            sessionStorage.setItem('normalTransition', 'true');
             window.location.href = destination;
-        }, 1500);
-    });
-    $(window).on('beforeunload', function() {
-        if (sessionStorage.getItem('normalTransition') === 'true' || sessionStorage.getItem('langTransition') === 'true') {
-            $('html, body').css({
-                'background-color': '#000000',
-                'opacity': '1'
-            });
-        }
-    });
-    $('.languages').click(function(e) {
-        e.preventDefault();                  
-        const destination = this.getAttribute("href"); 
-        const $loader = $('.page-loader');
-        $loader.removeClass('en de it es fade-out active visible')
-               .addClass($(this).attr('data-lang') + ' visible')
-               .find('.h4-loader').text($(this).attr('data-loading'));
-        setTimeout(() => $loader.addClass('active'), 50);      
-        setTimeout(() => $loader.addClass('fade-out'), 2000);   
-        setTimeout(() => {
-            sessionStorage.setItem('langTransition', 'true');
-            window.location.href = destination;                      
-        }, 3500);
+        }, 1000);
     });
 });
 // LOADERS ENDING //
