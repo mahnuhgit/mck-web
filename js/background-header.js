@@ -1,0 +1,2 @@
+var images = ['background-1.png', 'background-2.png', 'background-3.png', 'background-4.png', 'background-5.png', 'background-6.png',];
+    $('<img class="change-background" src="../pics/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#background-header');

@@ -1,0 +1,2 @@
+var images = ['background-forms-1.png', 'background-forms-2.png', 'background-forms-3.png', 'background-forms-4.png', 'background-forms-5.png',];
+    $('<img class="change-background" src="../pics/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('body');

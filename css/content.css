@@ -1,0 +1,61 @@
+#content
+{
+	max-width: 980px;
+	min-width: 280px;
+	margin: auto;
+	padding: 20px;
+	padding-right: 20px;
+	background-color: #94b0c1;
+	background: rgb(196,210,218);
+    background: -moz-radial-gradient(circle, rgba(196,210,218,1) 0%, rgba(148,176,193,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(196,210,218,1) 0%, rgba(148,176,193,1) 100%);
+    background: radial-gradient(circle, rgba(196,210,218,1) 0%, rgba(148,176,193,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4d2da",endColorstr="#94b0c1",GradientType=1);
+	text-align: justify;
+}
+
+.sub-container
+{
+	margin-top: 10px;
+	background-color: #cbcce4;
+	background: rgba(233,234,242,0.5);
+    background: -moz-radial-gradient(circle, rgba(233,234,242,0.5) 0%, rgba(203,204,228,0.5) 100%);
+    background: -webkit-radial-gradient(circle, rgba(233,234,242,0.5) 0%, rgba(203,204,228,0.5) 100%);
+    background: radial-gradient(circle, rgba(233,234,242,0.5) 0%, rgba(203,204,228,0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e9eaf2",endColorstr="#cbcce4",GradientType=1);
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-button {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 12px;
+	background-color: #27556E;
+	font-size: 16px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	float: left;
+	color: #F3F6FF;
+	-webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+         -o-transition: all 0.2s;
+            transition: all 0.2s;
+}
+
+.contact-button:hover {
+	background-color: #D6E8FF;
+	outline: none;
+	border: none;
+	color: #6F80A3;
+}

@@ -1,0 +1,157 @@
+body 
+{
+	background-color: #91b3c3;
+  background: rgb(224,231,235);
+  background: -moz-radial-gradient(circle, rgba(224,231,235,1) 0%, rgba(145,179,195,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(224,231,235,1) 0%, rgba(145,179,195,1) 100%);
+  background: radial-gradient(circle, rgba(224,231,235,1) 0%, rgba(145,179,195,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e7eb",endColorstr="#91b3c3",GradientType=1);
+  font-family: 'Muli', sans-serif;
+}
+
+.change-background
+{
+	height: 200%;
+	width: 200%;
+	-webkit-animation: bummer 60s;
+	-moz-animation: bummer 60s;
+	-o-animation: bummer 60s;
+	animation: bummer 60s;
+	-webkit-transform: scale(2,2);
+	-moz-transform: scale(2,2);
+	-o-transform: scale(2,2);
+	transform: scale(2,2);
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1); 
+    }
+}
+@-moz-keyframes bummer {
+    100% {
+        -moz-transform: scale(1,1); 
+    }
+}
+@-o-keyframes bummer {
+    100% {
+        -o-transform: scale(1,1); 
+    }
+}
+@keyframes bummer {
+    100% {
+        transform: scale(1,1); 
+    }
+}
+
+#overlay {
+  position: fixed; 
+  width: 100%; 
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8); 
+  z-index: 5;  
+}
+
+.form-popup {
+  max-width: 400px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+  background-color: #91b3c3;
+	background: rgb(224,231,235);
+background: -moz-radial-gradient(circle, rgba(224,231,235,1) 0%, rgba(145,179,195,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(224,231,235,1) 0%, rgba(145,179,195,1) 100%);
+background: radial-gradient(circle, rgba(224,231,235,1) 0%, rgba(145,179,195,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e7eb",endColorstr="#91b3c3",GradientType=1);
+-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	font-size: 16px;
+	color: #4F5767;
+	text-align: justify;
+}
+
+.contact-button {
+	min-width: 100px;
+	max-width: 120px;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	background-color: #27556E;
+	font-size: 16px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	color: #F3F6FF;
+	float: right;
+	font-family: 'Muli', sans-serif;
+	-webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+         -o-transition: all 0.2s;
+            transition: all 0.2s;
+}
+
+.contact-button:hover {
+	background-color: #D6E8FF;
+	outline: none;
+	border: none;
+	color: #6F80A3;
+}
+
+h4 
+{
+	filter: dropshadow(color=#000000, offx=2, offy=2);
+	color: #737364;
+	opacity: 0.6;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.5), 0px -1px 0px rgba(0,0,0,0.8);
+	font-size: 16px;
+	display: inline;
+	margin: auto;
+}
+
+h5 
+{
+filter: dropshadow(color=#000000, offx=2, offy=2);
+color: #315137;
+opacity: 0.6;
+text-shadow: 0px 1px 0px rgba(255,255,255,.5), 0px -1px 0px rgba(0,0,0,0.8);
+font-size: 16px;
+margin: auto;
+}
+
+hr {
+border: none;
+padding-bottom: 1px;
+padding-top: 1px;
+padding-left: 0px;
+padding-right: 0px;
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+color: #333;
+text-align: center;
+}
+
+ul li{
+	list-style-position: outside;
+	list-style-type: circle;
+}

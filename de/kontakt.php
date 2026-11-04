@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/forms.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139058313-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139058313-1');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TLLN2S3');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="google-site-verification" content="_xTBW5awjPVlIlgfTT9DG_GYVAtCev7ZM6h80oE1m4M" />
+<meta name="msvalidate.01" content="E2F8F10E39A0FB689A7421A756D067EB" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Manuel Calvo Kamper" />
+<meta name="copyright" content="Manuel Calvo Kamper" />
+<meta property="og:image" content="https://www.manuelcalvokamper.com/pics/background-1.png"/>
+<meta property="og:image" content="https://www.manuelcalvokamper.com/pics/background-2.png"/>
+<meta property="og:image" content="https://www.manuelcalvokamper.com/pics/background-3.png"/>
+<meta property="og:image" content="https://www.manuelcalvokamper.com/pics/background-4.png"/>
+<meta property="og:image" content="https://www.manuelcalvokamper.com/pics/background-5.png"/>
+<meta property="og:image" content="https://www.manuelcalvokamper.com/pics/background-6.png"/>
+<meta property="og:title" content="MANUEL CALVO KAMPER"/>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="MANUEL CALVO KAMPER"/>
+<meta content="True" name="HandheldFriendly" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>MANUEL CALVO KAMPER | Kontakt</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<meta name="description" content="Wenn Sie Fragen haben, ist dies der richtige Ort, um sie zu beantworten..... Rufen Sie an unter +436505154548 oder nutzen Sie einfach das Kontaktformular, um eine E-Mail zu schreiben."/>
+<meta name="keywords" content="Komponist, Produzent, Gitarrist, Lehrer, Gitarrenunterricht, 1190, Wien, Österreich, Kontakt"/>
+<meta property="og:description" content="Wenn Sie Fragen haben, ist dies der richtige Ort, um sie zu beantworten..... Rufen Sie an unter +436505154548 oder nutzen Sie einfach das Kontaktformular, um eine E-Mail zu schreiben."/>
+<meta property="og:url" content="https://www.manuelcalvokamper.com/de/kontakt"/>
+<link rel="canonical" href="https://www.manuelcalvokamper.com/de/kontakt"/>
+<!-- InstanceEndEditable -->
+<link rel="apple-touch-icon" sizes="57x57" href="../pics/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../pics/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../pics/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../pics/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../pics/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../pics/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../pics/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../pics/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../pics/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../pics/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../pics/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../pics/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../pics/favicon/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="../pics/favicon/favicon.ico">
+<link rel="icon" href="https://www.manuelcalvokamper.com/pics/favicon/favicon.ico?v=2" />
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../pics/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link href="../css/forms.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"cGq+s1Y1Mn20Io", domain:"manuelcalvokamper.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=cGq+s1Y1Mn20Io" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLLN2S3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="change-background">
+<img id="img-bf-1" src="../pics/background-forms-1.png" alt="Manuel-Calvo-Kamper-BF-1" />
+<img id="img-bf-2" src="../pics/background-forms-2.png" alt="Manuel-Calvo-Kamper-BF-2" />
+<img id="img-bf-3" src="../pics/background-forms-3.png" alt="Manuel-Calvo-Kamper-BF-3" />
+<img id="img-bf-4" src="../pics/background-forms-4.png" alt="Manuel-Calvo-Kamper-BF-4" />
+<img id="img-bf-5" src="../pics/background-forms-5.png" alt="Manuel-Calvo-Kamper-BF-5" />
+</div>
+
+<div id="overlay">
+  
+  <div class="form-popup">
+<!-- InstanceBeginEditable name="Edit-Content" -->
+
+<?php
+
+$nameErr = $emailErr = $commentErr = $subjectErr = "";
+$name = $email = $comment = $subject = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "Name ist verpflichtend";
+  } else {
+    $name = test_input($_POST["name"]);
+    // check if name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+      $nameErr = "Nur Buchstaben und Leerzeichen"; 
+    }
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "Email ist verpflichtend";
+  } else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Ungültiges Emailsformat"; 
+    }
+  }
+
+  if (empty($_POST["comment"])) {
+    $commentErr = "Nachricht ist verpflichtend";
+  } else {
+    $comment = test_input($_POST["comment"]);
+  }
+if (empty($_POST["subject"])) {
+    $subjectErr = "Überschrift ist verpflichtend";
+  } else {
+    $subject = test_input($_POST["subject"]);
+  }
+  
+}
+	
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+?>
+
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="form1" name="form1" class="form-container"> 
+  <table width="100%" onsubmit="MM_validateForm('name','','R','email','','RisEmail');return document.MM_returnValue">
+    <caption>
+      <h3>KONTAKT</h3>
+      <hr />
+      <br />
+      </caption>
+    <tr>
+      <td align="left">
+      <input type="text" name="name" id="name" placeholder="Ihr Name *"/>
+	  <br /><span class="error"><?php echo $nameErr;?></span></td>
+    </tr>
+    <tr>
+      <td align="left">
+      <input type="text" name="email" id="mail" placeholder="Email *"/>
+      <br /><span class="error"><?php echo $emailErr;?></span></td>
+    </tr>
+    <tr>
+      <td align="left">
+      <input type="text" name="subject" id="subject" placeholder="Überschrift *"/>
+      <br /><span class="error"><?php echo $subjectErr;?></span></td>
+    </tr>
+    <tr>
+      <td align="left">
+      <textarea name="comment" id="message" cols="25" rows="5" placeholder="Nachricht *"></textarea>
+      <br /><span class="error"><?php echo $commentErr;?></span>
+      </td>
+    </tr>
+    <tr>
+      <td align="left">
+      <input class="contact-button" type="reset" name="resetform" id="resetform" value="Rücksetzen" />
+      <input class="contact-button" type="submit" name="submit" id="submit" value="Senden" />
+      </td>
+    </tr>
+    
+  </table>
+</form>
+  
+<?php
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $nameErr === '' && $emailErr === '' && $commentErr === '' && $subjectErr === '') {
+
+$to = "admin@manuelcalvokamper.com";
+$email = "From: " . $email . "\r\n";
+$subject = "" . $subject . "\r\n";
+$comment = "" . $comment . "\r\n";
+
+mail($to,$subject,$comment,$email); 
+
+   echo "<hr />";
+   echo "<center><h4>IHRE NACHRICHT WURDE GESENDET!</h4></center>";
+   echo '<center><h5>Danke für Ihre Nachricht, bald werden Sie eine Antwort von mir bekommen!</h5></center>';
+   }  
+   else { 
+   '<center><h4>BITTE FÜLLEN SIE DAS GANZE FORMULAR AUS!</h4></center>';
+   }  
+   
+?>
+
+<center>
+   <hr />
+   <a href="home">
+   <button class="contact-button">
+   Zurück zur Seite</button>
+   </a>
+   </center>
+<br />
+
+
+<!-- InstanceEndEditable -->
+
+
+</div>
+
+</div>
+
+<script src="../js/contact-form.js"></script>
+
+</body>
+<!-- InstanceEnd --></html>

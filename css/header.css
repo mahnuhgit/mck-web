@@ -1,0 +1,133 @@
+#header
+{
+	max-width: 980px;
+	min-width: 280px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #87abbf;
+	background: rgb(190,219,235);
+    background: -moz-radial-gradient(circle, rgba(190,219,235,1) 0%, rgba(135,171,191,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(190,219,235,1) 0%, rgba(135,171,191,1) 100%);
+    background: radial-gradient(circle, rgba(190,219,235,1) 0%, rgba(135,171,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bedbeb",endColorstr="#87abbf",GradientType=1);
+	height: auto;
+	padding: 20px;
+}
+
+#title-m {
+	height: 30px;
+	margin-top: 4px;
+	text-align: left;
+	float: left;
+}
+
+#title-c {
+	height: 30px;
+	margin-top: 4px;
+	text-align: left;
+	float: left;
+	padding-left: 18px;
+}
+
+#title-k {
+	margin-top: 4px;
+	text-align: left;
+	float: left;
+	padding-left: 35px;
+}
+
+#subtitle {
+	text-align: right;
+	float: right;
+}
+
+#translate {
+	width: 100%;
+	padding-top: 10px;
+	clear: both;
+}
+
+#background-header
+{
+	margin-top: 3px;
+	width: 100%;
+	height: auto;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#ario
+{
+	position: relative;
+	bottom: 43px;
+	right: 0px;
+	height: auto;
+	margin-left: auto;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	color: #FFFFF5;
+	background: rgb(190,209,235);
+	background: -moz-radial-gradient(circle, rgba(190,209,235,0.9) 0%, rgba(135,163,191,0.9) 100%);
+	background: -webkit-radial-gradient(circle, rgba(190,209,235,0.9) 0%, rgba(135,163,191,0.9) 100%);
+	background: radial-gradient(circle, rgba(190,209,235,0.9) 0%, rgba(135,163,191,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bed1eb",endColorstr="#87a3bf",GradientType=1);
+	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5) inset;
+	-moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5) inset;
+	-webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5) inset;
+	z-index: 10;
+	float: right;
+	padding: 10px;
+}
+
+#ario:hover
+{
+	color: #8A8378;
+	background: rgb(190,209,235);
+	background: -moz-radial-gradient(circle, rgba(190,209,235,0.3) 0%, rgba(135,163,191,0.3) 100%);
+	background: -webkit-radial-gradient(circle, rgba(190,209,235,0.3) 0%, rgba(135,163,191,0.3) 100%);
+	background: radial-gradient(circle, rgba(190,209,235,0.3) 0%, rgba(135,163,191,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bed1eb",endColorstr="#87a3bf",GradientType=1);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.change-background
+{
+	margin-top: 3px;
+	object-fit: cover;
+	height: 250px;
+	width: 100%;
+    -webkit-animation: fade-in 0.2s ease;
+    -moz-animation: fade-in ease-in-out 0.2s both;
+    -ms-animation: fade-in ease-in-out 0.2s both;
+    -o-animation: fade-in ease-in-out 0.2s both;
+    animation: fade-in 0.2s ease;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+@-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+@-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+
+.change-background:hover
+{
+	opacity: 0.8;
+}

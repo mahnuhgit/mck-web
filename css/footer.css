@@ -1,0 +1,67 @@
+#footer
+{
+	max-width: 980px;
+	min-width: 280px;
+	background-color: #afbdbd;
+	background: rgb(221,233,233);
+background: -moz-radial-gradient(circle, rgba(221,233,233,1) 0%, rgba(175,189,189,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(221,233,233,1) 0%, rgba(175,189,189,1) 100%);
+background: radial-gradient(circle, rgba(221,233,233,1) 0%, rgba(175,189,189,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dde9e9",endColorstr="#afbdbd",GradientType=1);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding: 20px;
+	text-align: center;
+	overflow: auto;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#impressum 
+{
+	width: 45%;
+	text-align: left;
+	padding-right: 5%;
+	float: left;
+}
+
+#social 
+{
+	width: 45%;
+	text-align: center;
+	padding-left: 5%;
+	float: right;
+}
+
+.img-social
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+         -o-transition: all 0.2s;
+            transition: all 0.2s;
+}
+
+.img-social:hover
+{
+	opacity: 0.7;
+	width: 45px;
+	height: 45px;
+}
+
+#copyright
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align: center;
+	clear: both;
+}
