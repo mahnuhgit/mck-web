@@ -569,7 +569,7 @@ To be continued...
 
 // JS SCRIPTS BEGINNING //
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
-<script src="js/mian.js"></script>
+<script src="js/main.js"></script>
 // JS SCRIPTS ENDING //
 </body>
 
