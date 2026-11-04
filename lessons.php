@@ -67,10 +67,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="theme-color" content="#ffffff">
 <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 
+<style id="fouc-shield">
+    html { opacity: 0 !important; background: #000000 !important; }
+</style>
+
 <link href="css/main.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
+  <div class="fade-in-overlay visible"></div>
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLLN2S3"
